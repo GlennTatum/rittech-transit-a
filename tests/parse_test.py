@@ -1,4 +1,4 @@
-from ritech.transit.parse import (
+from ritech.transit.realtime import (
     PassioRequestHandler, 
     GTFS, # Enum
     gtfs as realtime # types

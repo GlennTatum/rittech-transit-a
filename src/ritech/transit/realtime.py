@@ -13,7 +13,7 @@ from google.protobuf.message import (
     Message,
     DecodeError
 )
-import proto.gtfs_realtime_pb2 as gtfs
+import ritech.proto.gtfs_realtime_pb2 as gtfs
 
 class GTFS(Enum):
     REALTIME =  "https://passio3.com/ritech/passioTransit/gtfs/realtime"
